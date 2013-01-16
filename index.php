@@ -10,6 +10,7 @@
     <div id="sidebar">
     </div>
     <div id="footer">
+    <?php include("footer.php") ?>
     <?php $data=date("Y"); echo $data; ?> <!-- Data Atual -->
     </div>
   </body>
