@@ -1,17 +1,29 @@
 
-	    <div id="footer">		    	
-			<div id="menu_footer" class="centraliza"> 					
-		        <!-- <ul class="centraliza">
-			        <li><a href="<?php servidor(); ?>index"><img src="<?php servidor(); ?>images/menu_topo/home_off.png" alt="" class="botao" /></a></li>
+	    <div id="footer" class="centraliza">		    	
+			<div id="menu_footer" class="centraliza">
+				<ul>
+					<li><a href=""><img src="<?php servidor(); ?>images/footer/menu-footer/quemsomos_off.png" alt="" class="botao"></a></li>
+					<li><a href=""><img src="<?php servidor(); ?>images/footer/menu-footer/galerias_off.png" alt="" class="botao"></a></li>
+					<li><a href=""><img src="<?php servidor(); ?>images/footer/menu-footer/clientes_off.png" alt="" class="botao"></a></li>
+					<li><a href=""><img src="<?php servidor(); ?>images/footer/menu-footer/noticias_off.png" alt="" class="botao"></a></li>
+					<li><a href=""><img src="<?php servidor(); ?>images/footer/menu-footer/agenda_off.png" alt="" class="botao"></a></li>
+					<li><a href=""><img src="<?php servidor(); ?>images/footer/menu-footer/contato_off.png" alt="" class="botao"></a></li>	
+				</ul>
+			<div id="footer_redes">								
+					<a href=""><img src="<?php servidor(); ?>images/footer/footer_tweeter_off.png" alt="" class="botao"></a>
+					<a href=""><img src="<?php servidor(); ?>images/footer/footer_facebook_off.png" alt="" class="botao"></a>			
+			</div>
 
-			        <li><a href="<?php servidor(); ?>quem-somos"><img src="<?php servidor(); ?>images/menu_topo/quemsomos_off.png" alt="" class="botao" /></a></li>
 
-			        <li><a href="<?php servidor(); ?>galerias"><img src="<?php servidor(); ?>images/menu_topo/galerias_off.png" alt="" class="botao" /></a></li>
 
-			        <li><a href="<?php servidor(); ?>clientes"><img src="<?php servidor(); ?>images/menu_topo/clientes_off.png" alt="" class="botao" /></a></li>
+			</div>
 
-			        <li><a href="<?php servidor(); ?>noticias"><img src="<?php servidor(); ?>images/menu_topo/noticias_off.png" alt="" class="botao" /></a></li>
+			<div id="texto_footer" class="centraliza">
+				<p><?php $data=date("Y"); echo $data; ?> <!-- Data Atual -->| Faz e Acontece - Cerimoniais e Eventos.Todos os direitos reservados.</p>
+				<p>Rua dos Mundurucus. 2268 - Batista Campos</p>
+				<p>Fones: 91 3223 8575 - 3242 7585</p>
+			</div>
 
-			    	<li><a href="<?php servidor(); ?>agenda"><img src="<?php servidor(); ?>images/menu_topo/agenda_off.png" alt="" class="botao" /></a></li>
-			    </ul> --> 
-		    </div>
+
+
+		</div>

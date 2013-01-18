@@ -2,7 +2,7 @@
 // ==================================== DADOS INICIAIS DO SITE ==================================== 
 
 //Nome do Site
-$core_nome     = "Faz e Acontese";
+$core_nome     = "Faz e Acontece";
 //Descrição do Site
 $core_desc     ="Cerimonial e Eventos";
 //Palavras-Chaves sobre o site, use virgulas para separa-las
@@ -26,7 +26,7 @@ function servidor(){
 		echo "http://".$core_servidor."/".$core_pasta."/";
 		}
 	else{
-		if($_SERVER['SERVER_NAME']=="talentodesign.com.br" || $_SERVER['SERVER_NAME']=="www.talentodesign.com.br" ){
+		if($_SERVER['SERVER_NAME']=="talentodesign.com.br"){
 			echo "http://".$core_servidor."/".$core_pasta."/";
 			}
 		else
