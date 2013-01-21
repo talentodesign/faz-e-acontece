@@ -9,13 +9,10 @@
 					<li><a href=""><img src="<?php servidor(); ?>images/footer/menu-footer/agenda_off.png" alt="" class="botao"></a></li>
 					<li><a href=""><img src="<?php servidor(); ?>images/footer/menu-footer/contato_off.png" alt="" class="botao"></a></li>	
 				</ul>
-			<div id="footer_redes">								
-					<a href=""><img src="<?php servidor(); ?>images/footer/footer_tweeter_off.png" alt="" class="botao"></a>
-					<a href=""><img src="<?php servidor(); ?>images/footer/footer_facebook_off.png" alt="" class="botao"></a>			
-			</div>
-
-
-
+				<div id="footer_redes">								
+						<a href=""><img src="<?php servidor(); ?>images/footer/footer_tweeter_off.png" alt="" class="botao"></a>
+						<a href=""><img src="<?php servidor(); ?>images/footer/footer_facebook_off.png" alt="" class="botao"></a>			
+				</div>
 			</div>
 
 			<div id="texto_footer" class="centraliza">
@@ -23,7 +20,4 @@
 				<p>Rua dos Mundurucus. 2268 - Batista Campos</p>
 				<p>Fones: 91 3223 8575 - 3242 7585</p>
 			</div>
-
-
-
 		</div>

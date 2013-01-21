@@ -4,7 +4,7 @@
 /* GERAL */
 body{
     .centraliza{
-    	width:1000px;
+    	width:1200px;
     	margin:0 auto;
     	}
     a, a:active, a:visited{
@@ -95,22 +95,59 @@ body{
 	}
 /* CONTEUDO */
 /* HOME */
-#content{
+#area_info{
     background:url(../images/bg_home_slider.png);
-    height:465px;
-    
-    #slider_home{
-        padding-top:30px;
-        padding-right:10px;      
-        } 
-    #destaque_area{
-        background:url(../images/destaque.png) no-repeat;
-        width:100px;
-        height:40px;
-        padding-left:100px;
+    height:460px;
+    #principal_slider{
+        float:left;
+        height:420px;
+        width:770px;
+        padding-top:30px;    
         }
-	}
+    #area_destaque{
+        background:url(../images/destaque.png) no-repeat;
+        float:right;
+        width:358px;
+        height:40px;
+        margin-right:40px;
+        margin-top:27px;
+        #menu{
+            //background-color:#fff;
+            width:360px;
+            height:360px;
+            margin-top:40px;
+            ul{
+                list-style:none;
+                .data{
+                    background:url(../images/data.png) no-repeat;
+                    float:left;
+                    width:65px;
+                    height:63px;
+                    padding-top:10px;
+                    margin-top:10px;
+                    text-align:center;
+                    font-size:14px;
+                    color:white;
+                    text-transform:uppercase;
+                }
+                .titulo{
+                    float:left;
+                    width:270px;
+                    margin-left:20px;
+                    margin-top:20px;
+                    color:white;                    
+                    }               
+                }
+            }        
+        }
+    }
+#area_home_principal{
+    background:url(../images/bg_home_principal.png);
+    height:544px;
     
+    }
+
+
     
     
     

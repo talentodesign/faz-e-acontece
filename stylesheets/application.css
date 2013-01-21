@@ -1,14 +1,146 @@
 /* CSS crunched with Crunch - http://crunchapp.net/ */
 @import url("reset.css");
-body .centraliza{width:1000px;margin:0 auto;}
-body a,body a:active,body a:visited{color:inherit;text-decoration:none;}
-body a:hover{color:inherit;text-decoration:underline;}
-body .separator{clear:both;}
-#header{background:url(../images/bg_topo.jpg);}#header #topo{width:1000px;height:180px;}#header #topo #redes{float:right;height:64px;width:248px;background:url(../images/bg_redes.png);margin-top:30px;margin-right:10px;}#header #topo #redes #rede_logo{float:right;margin-right:15px;margin-top:14px;}
-#header #topo #contato_topo{float:right;margin-right:-80px;width:249px;height:64px;background:url(../images/contato_topo.png);margin-top:30px;}
-#menu_topo{background:url(../images/bg_menu_topo.png) no-repeat #aa6300 center;height:31px;}#menu_topo ul{list-style-type:none;padding-left:280px;padding-top:3px;}#menu_topo ul li{display:inline;margin-left:15px;}
-#footer{background:url(../images/footer/bg_footer.png);height:200px;}#footer #menu_footer{background:url(../images/footer/bg_menu_footer.png) no-repeat bottom;padding-top:20px;width:710px;height:45px;}#footer #menu_footer ul{list-style-type:none;padding-top:10px;padding-left:10px;}#footer #menu_footer ul li{display:inline;margin:5px;}
-#footer #menu_footer #footer_redes{float:right;margin-top:-28px;margin-right:12px;}
-#footer #texto_footer{color:#fff;float:left;text-align:center;margin-top:40px;}
-#content{background:url(../images/bg_home_slider.png);height:465px;}#content #slider_home{padding-top:30px;padding-right:10px;}
-#content #destaque_area{background:url(../images/destaque.png) no-repeat;width:100px;height:40px;padding-left:100px;}
+/* Import style sheets, hiding from IE/Mac \*/
+/* End of import hide */
+/* GERAL */
+body .centraliza {
+  width: 1200px;
+  margin: 0 auto;
+}
+body a,
+body a:active,
+body a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+body a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+body .separator {
+  clear: both;
+}
+/* HEADER */
+#header {
+  background: url(../images/bg_topo.jpg);
+}
+#header #topo {
+  width: 1000px;
+  height: 180px;
+}
+#header #topo #redes {
+  float: right;
+  height: 64px;
+  width: 248px;
+  background: url(../images/bg_redes.png);
+  margin-top: 30px;
+  margin-right: 10px;
+}
+#header #topo #redes #rede_logo {
+  float: right;
+  margin-right: 15px;
+  margin-top: 14px;
+}
+#header #topo #contato_topo {
+  float: right;
+  margin-right: -80px;
+  width: 249px;
+  height: 64px;
+  background: url(../images/contato_topo.png);
+  margin-top: 30px;
+}
+#menu_topo {
+  background: url(../images/bg_menu_topo.png) no-repeat #aa6300 center;
+  height: 31px;
+}
+#menu_topo ul {
+  list-style-type: none;
+  padding-left: 280px;
+  padding-top: 3px;
+}
+#menu_topo ul li {
+  display: inline;
+  margin-left: 15px;
+}
+/* FOOTER */
+#footer {
+  background: url(../images/footer/bg_footer.png);
+  height: 200px;
+}
+#footer #menu_footer {
+  background: url(../images/footer/bg_menu_footer.png) no-repeat bottom;
+  padding-top: 20px;
+  width: 710px;
+  height: 45px;
+}
+#footer #menu_footer ul {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#footer #menu_footer ul li {
+  display: inline;
+  margin: 5px;
+}
+#footer #menu_footer #footer_redes {
+  float: right;
+  margin-top: -28px;
+  margin-right: 12px;
+}
+#footer #texto_footer {
+  color: #fff;
+  float: left;
+  text-align: center;
+  margin-top: 40px;
+}
+/* CONTEUDO */
+/* HOME */
+#area_info {
+  background: url(../images/bg_home_slider.png);
+  height: 460px;
+}
+#area_info #principal_slider {
+  float: left;
+  height: 420px;
+  width: 770px;
+  padding-top: 30px;
+}
+#area_info #area_destaque {
+  background: url(../images/destaque.png) no-repeat;
+  float: right;
+  width: 358px;
+  height: 40px;
+  margin-right: 40px;
+  margin-top: 27px;
+}
+#area_info #area_destaque #menu {
+  width: 360px;
+  height: 360px;
+  margin-top: 40px;
+}
+#area_info #area_destaque #menu ul {
+  list-style: none;
+}
+#area_info #area_destaque #menu ul .data {
+  background: url(../images/data.png) no-repeat;
+  float: left;
+  width: 65px;
+  height: 63px;
+  padding-top: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+}
+#area_info #area_destaque #menu ul .titulo {
+  float: left;
+  width: 270px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+}
+#area_home_principal {
+  background: url(../images/bg_home_principal.png);
+  height: 544px;
+}
