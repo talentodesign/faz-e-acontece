@@ -43,21 +43,14 @@
 
       <div id="area_noticias" class="centraliza">
         <div id="link_conheca">
-          <img src="<?php servidor(); ?>images/title_conheca.png" alt="">
-          <p>A FAZ E ACONTECE, empresa especializada na organização de eventos, que atua no mercado com experiência e profissionalismo de qualidade. </p>
-          <a href=""><img src="<?php servidor(); ?>images/saiba_mais_off.png" alt="" class="botao" id="nav_conheca"></a>
+
         </div>
       </div>
       
       <div id="area_contato">
         
-        
       </div>
-
-    </div>
-
-
-  
+    </div>  
     <div id="footer">
     <?php include("footer.php") ?>
     </div>

@@ -23,6 +23,7 @@
 			        	<li><a href="<?php servidor(); ?>noticias.php"><img src="<?php servidor(); ?>images/menu_topo/noticias_off.png" alt="" class="botao" /></a></li>
 
 			        	<li><a href="<?php servidor(); ?>agenda.php"><img src="<?php servidor(); ?>images/menu_topo/agenda_off.png" alt="" class="botao" /></a></li>
+			        	
 			        	<li><a href="<?php servidor(); ?>contato.php"><img src="<?php servidor() ?>images/menu_topo/contato_off.png" alt="" class="botao"></a></li>
 			        </ul> 
 		    	</div>
