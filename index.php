@@ -42,9 +42,14 @@
     <div id="area_home_principal">
 
       <div id="area_noticias" class="centraliza">
-        <div id="link_conheca">
 
-        </div>
+        <div id="link_conheca">         
+         <a href=""><div id="img_1"></div></a>
+         <a href=""><div id="img_2"></div></a>
+         <a href=""><div id="img_3"></div></a>
+
+                  
+         </div>
       </div>
       
       <div id="area_contato">

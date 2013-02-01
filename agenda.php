@@ -1,14 +1,6 @@
 <?php include("header.php") ?>
 <?php include("topo.php") ?>
 
-<?php 
- $guia[4]="current";
-  $pg = $_GET["pg"];
-  if ($pg == "") {
-    $pg == "jan";
-  }
-?>
-
     <title>Home</title>
   </head>
   <body>
