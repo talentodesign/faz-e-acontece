@@ -204,6 +204,73 @@ body #area_title #title img {
 #area_home_principal #area_noticias #link_conheca #img_3:hover {
   background: url(../images/area-de-atuacao/feiras-hover.png);
 }
+#area_home_principal #area_noticias #area_noticias {
+  background: url(../images/noticias.png);
+  float: right;
+  width: 184px;
+  height: 40px;
+  margin-right: 230px;
+  margin-top: 10px;
+}
+#area_home_principal #area_noticias #area_noticias #noticias {
+  margin-top: 60px;
+}
+#area_home_principal #area_noticias #area_noticias #noticias ul {
+  list-style: none;
+}
+#area_home_principal #area_noticias #area_noticias #noticias ul .data {
+  float: left;
+  width: 320px;
+  font-size: 17px;
+  color: #df5401;
+  text-transform: uppercase;
+}
+#area_home_principal #area_noticias #area_noticias #noticias ul .texto {
+  font-size: 15px;
+  width: 330px;
+  margin-top: 10px;
+}
+#area_home_principal #area_noticias #area_noticias #noticias ul .leia_mais {
+  font-size: 15px;
+  color: #df5401;
+}
+#area_home_principal #area_noticias #area_noticias #noticias .separator {
+  background-color: #df5401;
+  margin-top: 15px;
+  margin-bottom: -10px;
+  width: 315px;
+  height: 1px;
+}
+#area_home_principal #area_noticias #area_noticias #noticias img {
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+#area_home_principal #area_noticias #agenda {
+  background: url(../images/bg_agenda.png);
+  float: left;
+  margin-left: 50px;
+  margin-top: 400px;
+  width: 385px;
+  height: 97px;
+}
+#area_home_principal #area_noticias #agenda img {
+  float: right;
+  margin-top: 25px;
+  margin-right: 13px;
+}
+#area_galeria {
+  background: url(../images/bg_home_galeria.png);
+  height: 385px;
+}
+#area_galeria #title_galeria {
+  float: left;
+  margin-left: 85px;
+  margin-top: 27px;
+}
+#area_galeria #bt_agenda {
+  float: right;
+}
 /* AGENDA */
 #pag_agenda #agenda {
   float: left;

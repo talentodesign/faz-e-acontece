@@ -1,7 +1,7 @@
 <?php include("header.php") ?>
 <?php include("topo.php") ?>
 
-    <title>Home</title>
+    <title>FAZ E ACONTECE</title>
   </head>
   <body>
     <div id="area_title">
