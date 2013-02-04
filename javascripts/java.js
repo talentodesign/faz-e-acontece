@@ -62,4 +62,23 @@ $(document).ready(function(){
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
 	
+
+
+	/*------------- CAROUFREDSEL ---------------------*/  
+
+    $("#galeria_conteiner").carouFredSel({    	
+        items               : 4,
+        direction           :"up",
+        height				:160,
+        width				:900,
+        direction			:"left",        
+        aling				:"center",        
+        prev				:"#next",
+        next				:"#prev",
+        scroll : {
+            items           : 4,
+            duration        : 1000,
+            pauseOnHover    : true        
+        }
+    });
 });

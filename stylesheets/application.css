@@ -261,15 +261,45 @@ body #area_title #title img {
 }
 #area_galeria {
   background: url(../images/bg_home_galeria.png);
-  height: 385px;
+  height: 340px;
 }
 #area_galeria #title_galeria {
   float: left;
   margin-left: 85px;
   margin-top: 27px;
 }
+#area_galeria #bt_ampliar {
+  float: right;
+  margin-right: 30px;
+  margin-top: 35px;
+}
 #area_galeria #bt_agenda {
   float: right;
+  margin-right: 30px;
+  margin-top: 35px;
+}
+#area_galeria #home_area_images {
+  margin-left: 50px;
+  height: 170px;
+  width: 100px;
+}
+#area_galeria #home_area_images #area_images #area {
+  margin-top: -150px;
+  margin-left: 50px;
+}
+#area_galeria #home_area_images #area_images #area ul {
+  list-style: none;
+}
+#area_galeria #home_area_images #area_images #area ul li {
+  border-width: 10px;
+}
+#area_galeria #home_area_images #area_images #next {
+  margin-top: 40px;
+}
+#area_galeria #home_area_images #area_images #prev {
+  float: right;
+  margin-right: -900px;
+  margin-top: -150px;
 }
 /* AGENDA */
 #pag_agenda #agenda {

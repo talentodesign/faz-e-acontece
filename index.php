@@ -94,8 +94,29 @@
       <div id="home_galeria" class="centraliza">
         <div id="topo_galeria">
           <img src="<?php servidor(); ?>images/title_galeria.png" alt="" id="title_galeria">
-          <a href="" title=""><img src="<?php servidor(); ?>images/bt_galeria_off.png" alt="" id="bt_agenda" class="botao"></a>
-        </div>      
+          <a href=""><img src="<?php servidor(); ?>images/bt_galeria_ampli_off.png" alt="" id="bt_ampliar" class="botao"></a>
+          <a href=""><img src="<?php servidor(); ?>images/bt_galeria_off.png" alt="" id="bt_agenda" class="botao"></a>
+        </div> 
+
+        <div id="home_area_images">
+
+          <div id="area_images"> 
+          <a href=""><img src="<?php servidor(); ?>images/prev_off.png" alt="" class="botao" id="next"></a> 
+
+          <div id="area">                 
+              <ul id="galeria_conteiner">
+                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_01.png" alt=""></a>
+                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_02.png" alt=""></a>
+                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_03.png" alt=""></a>
+                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_04.png" alt=""></a>
+                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_04.png" alt=""></a>              
+              </ul>
+            </div> 
+
+            <a href=""><img src="<?php servidor(); ?>images/next_off.png" alt="" class="botao" id="prev"></a>
+            
+          </div>
+        </div>     
       </div>
     </div>
 
