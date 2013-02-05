@@ -66,17 +66,15 @@ $(document).ready(function(){
 
 	/*------------- CAROUFREDSEL ---------------------*/  
 
-    $("#galeria_conteiner").carouFredSel({    	
+    $("#conteiner").carouFredSel({    	
         items               : 4,
-        direction           :"up",
         height				:160,
-        width				:900,
+        width				:1060,
         direction			:"left",        
-        aling				:"center",        
         prev				:"#next",
         next				:"#prev",
         scroll : {
-            items           : 4,
+            items           : 1,
             duration        : 1000,
             pauseOnHover    : true        
         }

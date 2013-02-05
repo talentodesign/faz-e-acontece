@@ -101,20 +101,20 @@
         <div id="home_area_images">
 
           <div id="area_images"> 
-          <a href=""><img src="<?php servidor(); ?>images/prev_off.png" alt="" class="botao" id="next"></a> 
+            <a href=""><img src="<?php servidor(); ?>images/prev_off.png" alt="" class="botao" id="next"></a> 
 
-          <div id="area">                 
-              <ul id="galeria_conteiner">
-                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_01.png" alt=""></a>
-                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_02.png" alt=""></a>
-                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_03.png" alt=""></a>
-                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_04.png" alt=""></a>
-                <a href=""><img src="<?php servidor(); ?>images/home_galeria/img_04.png" alt=""></a>              
-              </ul>
+            <div id="area_conteiner">
+              <div id="area">                 
+                <ul id="conteiner">
+                  <li><a href=""><img src="<?php servidor(); ?>images/home_galeria/img_01.png" alt=""></a></li>
+                  <li><a href=""><img src="<?php servidor(); ?>images/home_galeria/img_02.png" alt=""></a></li>
+                  <li><a href=""><img src="<?php servidor(); ?>images/home_galeria/img_03.png" alt=""></a></li>
+                  <li><a href=""><img src="<?php servidor(); ?>images/home_galeria/img_04.png" alt=""></a></li>
+                  <li><a href=""><img src="<?php servidor(); ?>images/home_galeria/img_03.png" alt=""></a></li>         
+                </ul>
+              </div>
             </div> 
-
-            <a href=""><img src="<?php servidor(); ?>images/next_off.png" alt="" class="botao" id="prev"></a>
-            
+            <a href=""><img src="<?php servidor(); ?>images/next_off.png" alt="" class="botao" id="prev"></a>            
           </div>
         </div>     
       </div>
