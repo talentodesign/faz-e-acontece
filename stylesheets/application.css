@@ -26,7 +26,7 @@ body #content {
 }
 body #area_title {
   background: url(../images/bg_top_title.png);
-  height: 210px;
+  height: 208px;
 }
 body #area_title #title {
   float: left;
@@ -343,4 +343,45 @@ body #area_title #title img {
   float: right;
   height: 555px;
   width: 860px;
+}
+/* CLIENTES */
+#pag_clientes #text_title {
+  background: url(../images/clientes/topo_content.png);
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 1172px;
+  height: 80px;
+}
+#pag_clientes #text_title p {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+#pag_clientes #area_clientes_texto {
+  float: left;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+#pag_clientes #area_clientes_texto .title {
+  color: #de8208;
+  font-size: 15px;
+}
+#pag_clientes #area_clientes_texto .coluna_01 {
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#pag_clientes #area_clientes_texto .coluna_02 {
+  float: left;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+/* GALERIAS */
+#pag_galerias #text_title {
+  float: left;
+  margin-left: 420px;
+  margin-top: 100px;
+  font-size: 15px;
 }

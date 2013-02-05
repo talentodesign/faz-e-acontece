@@ -69,7 +69,7 @@ $(document).ready(function(){
     $("#conteiner").carouFredSel({    	
         items               : 4,
         height				:160,
-        width				:1060,
+        width				:1000,
         direction			:"left",        
         prev				:"#next",
         next				:"#prev",
