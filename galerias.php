@@ -14,10 +14,12 @@
         </div>
     </div>
 
-      <div id="content">
+      <div id="content_galerias">
         <div id="pag_galerias" class="centraliza">
             <div id="text_title" class="centraliza">
-              <p><b>Clique na categoria abaixo para visualizar o álbum</b></p>
+              <a href=""><img src="<?php servidor(); ?>images/galerias/15_anos_off.png" alt="" class="botao"></a>
+              <a href=""><img src="<?php servidor(); ?>images/galerias/casamentos_off.png" alt="" class="botao"></a>
+              <a href="<?php servidor(); ?>feiras.php"><img src="<?php servidor(); ?>images/galerias/feiras_off.png" alt="" class="botao"></a>
             </div>
                           
         </div>       

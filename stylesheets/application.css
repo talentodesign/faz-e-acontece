@@ -379,9 +379,38 @@ body #area_title #title img {
   margin-top: 10px;
 }
 /* GALERIAS */
-#pag_galerias #text_title {
+#content_galerias {
+  background: url(../images/bg_content.png);
+  height: 575px;
+}
+#content_galerias #pag_galerias #text_title {
   float: left;
-  margin-left: 420px;
-  margin-top: 100px;
+  margin-left: 130px;
   font-size: 15px;
+}
+#content_galerias #pag_galerias #text_title img {
+  margin-left: 60px;
+}
+/* FEIRAS */
+#pag_feiras #text_feiras {
+  float: left;
+  margin-top: 90px;
+  margin-left: 450px;
+}
+#pag_feiras #feiras {
+  float: left;
+  width: 800px;
+  height: 300px;
+  margin-left: 250px;
+  margin-top: 10px;
+}
+#pag_feiras #feiras ul {
+  list-style: none;
+}
+#pag_feiras #feiras ul li {
+  display: inline;
+}
+#pag_feiras #feiras ul li img {
+  margin-bottom: 5px;
+  margin-left: 5px;
 }

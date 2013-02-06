@@ -6,6 +6,7 @@ RewriteRule ^simples/?$ simples.php
 RewriteRule ^agenda/?$ agenda.php
 RewriteRule ^galerias/?$ galerias.php
 RewriteRule ^noticias/?$ noticias.php
+RewriteRule ^feiras/?$ feiras.php
 RewriteRule ^index/?$ index.php
 RewriteRule ^parametro_string/pg/([a-z0-9-]*)\/?$ parametro_string.php?pg=$1
 RewriteRule ^parametro_int\/?([1-9]*)\/?$ parametro_int.php?qs_pg2805=$1
