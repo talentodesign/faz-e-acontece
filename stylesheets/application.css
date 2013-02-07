@@ -414,3 +414,126 @@ body #area_title #title img {
   margin-bottom: 5px;
   margin-left: 5px;
 }
+/* GALERIAS AMAZOMPEC */
+#content_galerias #pg_amazonpec #menu {
+  background: url(../images/galerias/amazonpec/title_menu.png);
+  float: left;
+  width: 258px;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+#content_galerias #pg_amazonpec #menu ul {
+  list-style: none;
+}
+#content_galerias #pg_amazonpec #menu ul li {
+  margin-bottom: -45px;
+}
+#content_galerias #pg_amazonpec #menu ul li #feira_2010 {
+  background-color: #a7a6a6;
+  width: 258px;
+  height: 50px;
+  margin-top: 50px;
+}
+#content_galerias #pg_amazonpec #menu ul li #feira_2010:hover {
+  background-color: #f3ae4f;
+}
+#content_galerias #pg_amazonpec #menu ul li #feira_2010 .ano {
+  float: left;
+  margin-top: 7px;
+  font-size: 30px;
+  margin-left: 20px;
+  color: #fff;
+  font-family: verdana;
+}
+#content_galerias #pg_amazonpec #menu ul li #feira_2009 {
+  background-color: #a7a6a6;
+  width: 258px;
+  height: 50px;
+  margin-top: 50px;
+}
+#content_galerias #pg_amazonpec #menu ul li #feira_2009:hover {
+  background-color: #f3ae4f;
+}
+#content_galerias #pg_amazonpec #menu ul li #feira_2009 .ano {
+  float: left;
+  margin-top: 7px;
+  font-size: 30px;
+  margin-left: 20px;
+  color: #fff;
+  font-family: verdana;
+}
+#content_galerias #pg_amazonpec #menu ul li #feira_2008 {
+  background-color: #a7a6a6;
+  width: 258px;
+  height: 50px;
+  margin-top: 50px;
+}
+#content_galerias #pg_amazonpec #menu ul li #feira_2008:hover {
+  background-color: #f3ae4f;
+}
+#content_galerias #pg_amazonpec #menu ul li #feira_2008 .ano {
+  float: left;
+  margin-top: 7px;
+  font-size: 30px;
+  margin-left: 20px;
+  color: #fff;
+  font-family: verdana;
+}
+#content_galerias #pg_amazonpec #menu #voltar {
+  float: left;
+  margin-top: 60px;
+}
+#content_galerias #pg_amazonpec #area_images {
+  background: url(../images/galerias/amazonpec/conteiner_feiras.png);
+  float: right;
+  width: 815px;
+  height: 520px;
+  margin-top: 30px;
+}
+#content_galerias #pg_amazonpec #area_images ul {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+#content_galerias #pg_amazonpec #area_images ul li {
+  display: inline;
+  margin-left: 5px;
+}
+#content_galerias #pg_amazonpec #area_images ul li img {
+  border: 3px solid #fda62c;
+}
+/* NOTICIAS */
+#pag_noticias #noticias {
+  background: url(../images/bg_noticias_prev.png);
+  float: left;
+  width: 410px;
+  height: 555px;
+  margin-left: 100px;
+}
+#pag_noticias #noticias #titulo {
+  font-size: 25px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-family: verdana;
+  color: #e08404;
+}
+#pag_noticias #noticias #area_noticias {
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+#pag_noticias #noticias #area_noticias ul {
+  list-style: none;
+}
+#pag_noticias #noticias #area_noticias ul li .titulo {
+  font-size: 18px;
+  color: #df5401;
+  font-family: verdana;
+}
+#pag_noticias #noticias #area_noticias ul li .prev {
+  font-size: 15px;
+  font-family: verdana;
+  text-align: justify;
+}

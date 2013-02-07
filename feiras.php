@@ -22,7 +22,7 @@
 
             <div id="feiras">
               <ul>
-                <li><a href=""><img src="<?php servidor(); ?>images/galerias/feiras/amazonpec_off.png" alt="" class="botao"></a></li>
+                <li><a href="feiras/amazonpec.php"><img src="<?php servidor(); ?>images/galerias/feiras/amazonpec_off.png" alt="" class="botao"></a></li>
 
                 <li><a href=""><img src="<?php servidor(); ?>images/galerias/feiras/fenormac_off.png" alt="" class="botao"></a></li>
 
