@@ -15,23 +15,44 @@
         </div>
 
         <div id="area_destaque">
-          <div id="menu">
-            <?php 
-            $ul = 1;
-            while ( $ul <= 03) {  ?>       
+          <div id="menu"> 
                 <ul>         
                   <li>
                     <div class="data"> 
-                      <p class="d"> 03 </p>
+                      <p class="d"> 02 </p>
                       <br/>
-                      <p class="m"> nov </p> 
+                      <p class="m"> ABR </p> 
                     </div>
-                    <div class="titulo"> TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO TITULO </div>
+                    <div class="titulo"> EXPO EVETNTOS 2013 De 04 a 07 de Abril de 2013 </div>
                     <div class="separator"></div>                   
                   </li>
                 </ul>
-                <hr>      
-            <?php $ul++; }  ?>
+                <hr>
+               <ul>         
+                  <li>
+                    <div class="data"> 
+                      <p class="d"> 25 </p>
+                      <br/>
+                      <p class="m"> NOV </p> 
+                    </div>
+                    <div class="titulo"> SALÃO AUTO NORTE De 21 à 23 de Julho de 2013 </div>
+                    <div class="separator"></div>                   
+                  </li>
+                </ul>
+                <hr>
+                <ul>         
+                  <li>
+                    <div class="data"> 
+                      <p class="d"> 01 </p>
+                      <br/>
+                      <p class="m"> DEZ </p> 
+                    </div>
+                    <div class="titulo"> AGRIFAL 2013 De 22 à 25 de Agosto de 2013 </div>
+                    <div class="separator"></div>                   
+                  </li>
+                </ul>
+                <hr>
+
               <center><a href="<?php servidor(); ?>noticias/"><img src="<?php servidor(); ?>images/not_bt_off.png" alt="" class="botao"></a></center>
           </div> 
         </div>
