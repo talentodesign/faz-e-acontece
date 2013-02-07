@@ -36,7 +36,7 @@ $(document).ready(function(){
 		var tel=$("#tel").val();
 		var mens=$("#mens").val();
 		var dados="nome="+nome+"&email="+email+"&tel="+tel+"&mens="+mens;
-		if(nome =='' || email =='' || tel =='' || mens==''){
+		if($("input")==''){
 			$('#contato_vazio').modal("show");
 			}
 		else{
