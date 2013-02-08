@@ -8,6 +8,7 @@ RewriteRule ^galerias/?$ galerias.php
 RewriteRule ^noticias/?$ noticias.php
 RewriteRule ^feiras/?$ feiras.php
 RewriteRule ^clientes/?$ clientes.php
+RewriteRule ^portifolio/?$ portifolio.php
 RewriteRule ^quem-somos/?$ quem-somos.php
 Rewriterule ^noticias/?$ noticias.php
 RewriteRule ^index/?$ index.php

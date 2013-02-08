@@ -534,6 +534,114 @@ body #area_title #title img {
 }
 #pag_noticias #noticias #area_noticias ul li .prev {
   font-size: 15px;
+  width: 385px;
   font-family: verdana;
   text-align: justify;
+}
+#pag_noticias #noticias #area_noticias ul li .separator {
+  background-color: #e08404;
+  width: 390px;
+  height: 4px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#pag_noticias #noticias #area_noticias #noticias_navi {
+  float: left;
+  margin-top: 50px;
+  margin-left: 90px;
+  color: #e08404;
+}
+#pag_noticias #noticias #area_noticias #noticias_navi #volt {
+  float: left;
+}
+#pag_noticias #noticias #area_noticias #noticias_navi #proxi {
+  float: left;
+  margin-left: 10px;
+}
+#pag_noticias #noticias_principal {
+  background: url(../images/bg_noticias_principal.png);
+  float: right;
+  width: 680px;
+  height: 560px;
+}
+#pag_noticias #noticias_principal #titulo_principal {
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 17px;
+  color: #df5401;
+}
+#pag_noticias #noticias_principal #noticias_texto {
+  max-width: 100%;
+  margin-left: 10px;
+}
+#pag_noticias #noticias_principal #noticias_texto img {
+  max-width: 100%;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pag_noticias #noticias_principal #noticias_texto p {
+  font-size: 15px;
+}
+/* PORTIFOLIO */
+#pag_portifolio #area_anos {
+  float: left;
+  width: 235px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+#pag_portifolio #area_anos p {
+  font-size: 18px;
+  font-family: verdana;
+  color: #e56d02;
+  margin-bottom: 10px;
+}
+#pag_portifolio #area_anos ul {
+  list-style-type: none;
+}
+#pag_portifolio #area_anos ul li {
+  background-color: #bcbbbb;
+  height: 50px;
+  margin-top: 1px;
+  text-decoration: none;
+}
+#pag_portifolio #area_anos ul li p {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+  height: 28px;
+}
+#pag_portifolio #area_anos ul li:hover {
+  background-color: #ffb350;
+}
+#pag_portifolio #area_anos ul li:hover a {
+  text-decoration: none;
+}
+#pag_portifolio #portifolio_principal {
+  background: url(../images/bg_portifolio_principal.png);
+  float: right;
+  width: 800px;
+  height: 555px;
+}
+#pag_portifolio #portifolio_principal .ano {
+  font-size: 45px;
+  color: #ed7307;
+  margin-top: 30px;
+}
+#pag_portifolio #portifolio_principal ul {
+  list-style: none;
+  margin-left: 10px;
+}
+#pag_portifolio #portifolio_principal ul li {
+  display: inline;
+  margin-left: 20px;
+}
+#pag_portifolio #portifolio_principal ul li img {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: 3px solid #ed7307;
 }
