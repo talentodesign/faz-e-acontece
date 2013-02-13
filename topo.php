@@ -23,6 +23,8 @@
 			        	<li><a href="<?php servidor(); ?>noticias"><img src="<?php servidor(); ?>images/menu_topo/noticias_off.png" alt="" class="botao" /></a></li>
 
 			        	<li><a href="<?php servidor(); ?>agenda"><img src="<?php servidor(); ?>images/menu_topo/agenda_off.png" alt="" class="botao" /></a></li>
+
+			        	<li><a href="<?php servidor(); ?>portifolio"><img src="<?php servidor(); ?>images/menu_topo/portifolio_off.png" height="18" width="101" alt="" class="botao"> </a></li>
 			        	
 			        	<li><a href="<?php servidor(); ?>contato.php"><img src="<?php servidor() ?>images/menu_topo/contato_off.png" alt="" class="botao"></a></li>
 			        </ul> 

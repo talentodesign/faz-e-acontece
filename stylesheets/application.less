@@ -25,7 +25,7 @@ body{
         }
         
     #area_title{
-        background:url(../images/bg_top_title.png);
+        background:url(../images/bg_home_slider.png);
         height:208px;
         #title{
             float:left;
@@ -273,48 +273,51 @@ body{
     background:url(../images/bg_home_galeria.png);
     height:340px;
     
-    #title_galeria{
-        float:left;
-        margin-left:85px;
-        margin-top:27px;        
-        }
-    #bt_ampliar{
-        float:right;
-        margin-right:30px;
-        margin-top:35px;
-        }
-    #bt_agenda{
-        float:right;    
-        margin-right:30px;
-        margin-top:35px;
-        }
+    #topo_galeria{ 
+        height:87px;
+        #title_galeria{
+            float:left;
+            margin-left:85px;
+            margin-top:27px;        
+            }
+        #bt_ampliar{
+            float:right;
+            margin-right:30px;
+            margin-top:35px;
+            }
+        #bt_agenda{
+            float:right;    
+            margin-right:30px;
+            margin-top:35px;
+            }
+    }
         
-    #home_area_images{
-        margin-left:35px;
-        height:170px;        
-        #area_images{
-            width:1000px;
-            height:400px;            
-            #area{
-                padding-top:115px;
-                margin-left:50px;
-                ul{
-                    list-style:none;
-                    li{
-                        display:inline;
-                        }                    
-                    }                
-                }                        
-            #next{
-                float:left;
-                margin-top:120px;
-                margin-left:-425px;
+    #home_area_images{  
+        #area_images{ 
+            #area_conteiner{
+                width:1090px;
+                #conteiner{
+                img{
+                    border: 3px solid #ffa200;
+                    margin-left:10px;
+                    }
                 }
-            #prev{
-                float:right;
-                margin-top:-160px;
-                margin-right:-140px;
-                }                
+                #prev{
+                    float:left;
+                    margin-top:40px;
+                    margin-left:50px;
+                    }
+                #next{
+                    float:left;
+                    margin-left:1150px;
+                    margin-top:-130px;
+                    }
+                #area_mani{
+                    float:left;
+                    margin-left:100px;                    
+                    margin-top:-170px;
+                    }
+                }                          
             }      
         }
     }
@@ -661,8 +664,7 @@ body{
                 }
             }            
         } 
-    } 
-    
+    }     
     #portifolio_principal{
         background:url(../images/bg_portifolio_principal.png);
         float:right;
@@ -687,9 +689,63 @@ body{
                     }
                 }
             }
+        }    
+}
+
+/* QUEM SOMOS */
+
+#pag_quem-somos{
+    .titulo{
+            color:#f68000;
+            font-size:35px;
+            float:left;
+            margin-left:100px;
+            margin-top:40px;
+            margin-bottom:-15px;
+            }
+    #texto{
+        float:left;
+        margin-left:100px;
+        margin-top:30px;
+        width:520px;
+        
+        .nomes{
+            color:#f68000;
+            font-size:15px;
+            }
+        .sublim{
+            color:#f68000;
+            }
+        }
+        
+    #galeria_image{
+        background:url(../images/quem-somos/bg_imagens.png);
+        float:right;
+        width:440px;
+        height:535px;
+        margin-top:-60px;
+        
+        ul{
+            list-style:none;
+            margin-top:110px;
+            margin-left:8px;
+            li{
+                display:inline;                
+                float:left;
+                margin-left:10px;
+                margin-bottom:10px;
+                img{
+                    border: 3px solid #ffa200;
+                    width:120px;
+                    height:120px;
+                    }
+                }
+            }
         }
     
 }
+
+    
 
 
 

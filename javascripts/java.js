@@ -64,19 +64,18 @@ $(document).ready(function(){
 	
 
 
-	/*------------- CAROUFREDSEL ---------------------*/  
+	/*------------- CAROUSELLITE ---------------------*/  
 
-    $("#conteiner").carouFredSel({    	
-        items               : 4,
-        height				:160,
-        width				:1000,
-        direction			:"left",        
-        prev				:"#next",
-        next				:"#prev",
-        scroll : {
-            items           : 1,
-            duration        : 1000,
-            pauseOnHover    : true        
-        }
-    });
+    $(window).load( function(){	
+	$("#conteiner").jCarouselLite({
+    	btnNext: "#next",
+    	btnPrev: "#prev",
+    	vertical: false,
+		speed:800,
+		auto: 2000,
+		visible: 4,
+		scroll: 2,		
+		mouseWheel: true
+		});
+	});
 });

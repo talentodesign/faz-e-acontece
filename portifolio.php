@@ -7,9 +7,9 @@
     <div id="area_title">
         <div id="content_title" class="centraliza">
           <div id="title">
-            <img src="<?php servidor(); ?>images/agenda/title.png" alt="">
+            <img src="<?php servidor(); ?>images/portifolio/title.png" alt="">
             <br>
-            <img src="<?php servidor(); ?>images/agenda/sub_title.png" alt="">
+            <img src="<?php servidor(); ?>images/portifolio/sub_title.png" alt="">
           </div>
         </div>
     </div>

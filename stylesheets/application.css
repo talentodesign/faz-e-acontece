@@ -25,7 +25,7 @@ body #content {
   height: 555px;
 }
 body #area_title {
-  background: url(../images/bg_top_title.png);
+  background: url(../images/bg_home_slider.png);
   height: 208px;
 }
 body #area_title #title {
@@ -263,48 +263,45 @@ body #area_title #title img {
   background: url(../images/bg_home_galeria.png);
   height: 340px;
 }
-#area_galeria #title_galeria {
+#area_galeria #topo_galeria {
+  height: 87px;
+}
+#area_galeria #topo_galeria #title_galeria {
   float: left;
   margin-left: 85px;
   margin-top: 27px;
 }
-#area_galeria #bt_ampliar {
+#area_galeria #topo_galeria #bt_ampliar {
   float: right;
   margin-right: 30px;
   margin-top: 35px;
 }
-#area_galeria #bt_agenda {
+#area_galeria #topo_galeria #bt_agenda {
   float: right;
   margin-right: 30px;
   margin-top: 35px;
 }
-#area_galeria #home_area_images {
-  margin-left: 35px;
-  height: 170px;
+#area_galeria #home_area_images #area_images #area_conteiner {
+  width: 1090px;
 }
-#area_galeria #home_area_images #area_images {
-  width: 1000px;
-  height: 400px;
+#area_galeria #home_area_images #area_images #area_conteiner #conteiner img {
+  border: 3px solid #ffa200;
+  margin-left: 10px;
 }
-#area_galeria #home_area_images #area_images #area {
-  padding-top: 115px;
+#area_galeria #home_area_images #area_images #area_conteiner #prev {
+  float: left;
+  margin-top: 40px;
   margin-left: 50px;
 }
-#area_galeria #home_area_images #area_images #area ul {
-  list-style: none;
-}
-#area_galeria #home_area_images #area_images #area ul li {
-  display: inline;
-}
-#area_galeria #home_area_images #area_images #next {
+#area_galeria #home_area_images #area_images #area_conteiner #next {
   float: left;
-  margin-top: 120px;
-  margin-left: -425px;
+  margin-left: 1150px;
+  margin-top: -130px;
 }
-#area_galeria #home_area_images #area_images #prev {
-  float: right;
-  margin-top: -160px;
-  margin-right: -140px;
+#area_galeria #home_area_images #area_images #area_conteiner #area_mani {
+  float: left;
+  margin-left: 100px;
+  margin-top: -170px;
 }
 /* AGENDA */
 #pag_agenda #agenda {
@@ -644,4 +641,49 @@ body #area_title #title img {
   margin-bottom: 5px;
   margin-left: 5px;
   border: 3px solid #ed7307;
+}
+/* QUEM SOMOS */
+#pag_quem-somos .titulo {
+  color: #f68000;
+  font-size: 35px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: -15px;
+}
+#pag_quem-somos #texto {
+  float: left;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 520px;
+}
+#pag_quem-somos #texto .nomes {
+  color: #f68000;
+  font-size: 15px;
+}
+#pag_quem-somos #texto .sublim {
+  color: #f68000;
+}
+#pag_quem-somos #galeria_image {
+  background: url(../images/quem-somos/bg_imagens.png);
+  float: right;
+  width: 440px;
+  height: 535px;
+  margin-top: -60px;
+}
+#pag_quem-somos #galeria_image ul {
+  list-style: none;
+  margin-top: 110px;
+  margin-left: 8px;
+}
+#pag_quem-somos #galeria_image ul li {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+#pag_quem-somos #galeria_image ul li img {
+  border: 3px solid #ffa200;
+  width: 120px;
+  height: 120px;
 }
