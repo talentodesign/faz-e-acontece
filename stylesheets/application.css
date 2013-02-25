@@ -67,7 +67,7 @@ body #area_title #title img {
   margin-top: 30px;
 }
 #menu_topo {
-  background: url(../images/bg_menu_topo.png) no-repeat #aa6300 center;
+  background: url(../images/bg_menu_topo.png) center;
   height: 31px;
 }
 #menu_topo ul {
@@ -174,31 +174,31 @@ body #area_title #title img {
   height: 570px;
 }
 #area_home_principal #area_noticias #link_conheca #img_1 {
-  background: url(../images/area-de-atuacao/15-anos.png);
+  background: url(../images/area-de-atuacao/eventos.png);
   float: left;
   width: 237px;
-  height: 407px;
+  height: 354px;
   margin-top: 130px;
   margin-left: 13px;
 }
 #area_home_principal #area_noticias #link_conheca #img_1:hover {
-  background: url(../images/area-de-atuacao/15-anos-hover.png);
+  background: url(../images/area-de-atuacao/eventos-hover.png);
 }
 #area_home_principal #area_noticias #link_conheca #img_2 {
-  background: url(../images/area-de-atuacao/casamentos.png);
+  background: url(../images/area-de-atuacao/congressos.png);
   float: left;
   width: 237px;
-  height: 407px;
+  height: 354px;
   margin-top: 130px;
 }
 #area_home_principal #area_noticias #link_conheca #img_2:hover {
-  background: url(../images/area-de-atuacao/casamentos-hover.png);
+  background: url(../images/area-de-atuacao/congressos-hover.png);
 }
 #area_home_principal #area_noticias #link_conheca #img_3 {
   background: url(../images/area-de-atuacao/feiras.png);
   float: left;
   width: 237px;
-  height: 407px;
+  height: 354px;
   margin-top: 130px;
 }
 #area_home_principal #area_noticias #link_conheca #img_3:hover {

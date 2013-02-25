@@ -9,8 +9,13 @@
 
         <div id="principal_slider">
           <div id="slider">
-            <a href=""><img src="<?php servidor(); ?>images/home_slider/slider_01.png" alt=""></a>
-            <a href=""><img src="<?php servidor(); ?>images/home_slider/slider_02.png" alt=""></a>
+            <img src="<?php servidor(); ?>images/home_slider/01_abril.png" alt="">         
+            <img src="<?php servidor(); ?>images/home_slider/02_junho.png" alt="">
+            <img src="<?php servidor(); ?>images/home_slider/03_julho.png" alt="">
+            <img src="<?php servidor(); ?>images/home_slider/04_agosto.png" alt="">
+            <img src="<?php servidor(); ?>images/home_slider/05_setembro.png" alt="">
+            <img src="<?php servidor(); ?>images/home_slider/06_setembro.png" alt="">
+            <img src="<?php servidor(); ?>images/home_slider/07_fazeacontece_2013.png" alt="">
           </div>        
         </div>
 
@@ -115,8 +120,8 @@
       <div id="home_galeria" class="centraliza">
         <div id="topo_galeria">
           <img src="<?php servidor(); ?>images/title_galeria.png" alt="" id="title_galeria">
-          <a href=""><img src="<?php servidor(); ?>images/bt_galeria_ampli_off.png" alt="" id="bt_ampliar" class="botao"></a>
-          <a href=""><img src="<?php servidor(); ?>images/bt_galeria_off.png" alt="" id="bt_agenda" class="botao"></a>
+          <img src="<?php servidor(); ?>images/bt_galeria_ampli_off.png" alt="" id="bt_ampliar">
+          <a href="<?php servidor(); ?>galerias/"><img src="<?php servidor(); ?>images/bt_galeria_off.png" alt="" id="bt_agenda" class="botao"></a>
         </div> 
 
         <div id="home_area_images">

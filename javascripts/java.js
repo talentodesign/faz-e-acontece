@@ -59,8 +59,10 @@ $(document).ready(function(){
 		return false;
 		});
 	
-	/* ------------ SLIDE JCYCLE ---------------------*/	
-	$("#slider").cycle({fx:"fade"});
+	/* ------------ SLIDE JCYCLE ---------------------*/
+	$("#slider").cycle({fx:"uncover",pause:true});
+
+
 	
 
 
