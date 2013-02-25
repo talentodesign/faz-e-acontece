@@ -4,10 +4,8 @@
 		        	<img src="<?php servidor(); ?>images/logo.png" alt="" id="logo"> 
 
 		        	<div id="contato_topo"></div> 
-						<div id="redes" class="centraliza">    
-				        	<a href=""><img src="<?php servidor(); ?>images/face_off.png" alt="" id="rede_logo" class="botao"></a>
-				        	<a href=""><img src="<?php servidor(); ?>images/twee_off.png" alt="" id="rede_logo" class="botao"></a>
-			            </div>			    
+		        	<div id="contato_msg"></div>
+								    
 			   	</div>
 		</div> 
 				<div id="menu_topo"> 					

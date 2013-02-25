@@ -63,9 +63,6 @@ $(document).ready(function(){
 	$("#slider").cycle({fx:"uncover",pause:true});
 
 
-	
-
-
 	/*------------- CAROUSELLITE ---------------------*/  
 
     $(window).load( function(){	
