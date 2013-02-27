@@ -58,7 +58,7 @@
                 </ul>
                 <hr>
 
-              <center><a href="<?php servidor(); ?>eventos_destaque/"><img src="<?php servidor(); ?>images/not_bt_off.png" alt="" class="botao"></a></center>
+              <center><a href="<?php servidor(); ?>eventos-destaque/"><img src="<?php servidor(); ?>images/not_bt_off.png" alt="" class="botao"></a></center>
           </div> 
         </div>
       </div>

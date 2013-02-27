@@ -17,6 +17,9 @@ $(document).ready(function(){
 		$(this).attr('src', hov2);
 		
 		});
+	/* ------------ GALERIAS ---------------------*/	
+		$("#pag_eventos a").fancybox();
+
 		
 	/*---------------TWITTER-------------------*/
 
