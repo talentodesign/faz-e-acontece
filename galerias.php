@@ -18,7 +18,7 @@
         <div id="pag_galerias" class="centraliza">
             <div id="text_title" class="centraliza">
               <a href="<?php servidor(); ?>galeria-eventos-sociais.php"><img src="<?php servidor(); ?>images/galerias/eventos_off.png" alt="" class="botao"></a>
-              <a href=""><img src="<?php servidor(); ?>images/galerias/congressos_off.png" alt="" class="botao"></a>
+              <a href="<?php servidor(); ?>galeria-congressos"><img src="<?php servidor(); ?>images/galerias/congressos_off.png" alt="" class="botao"></a>
               <a href="<?php servidor(); ?>feiras.php"><img src="<?php servidor(); ?>images/galerias/feiras_off.png" alt="" class="botao"></a>
             </div>
                           

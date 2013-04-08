@@ -8,6 +8,7 @@ RewriteRule ^agenda/pg/([a-z0-9]*)\/?$ agenda.php?pg=$1
 RewriteRule ^galerias/?$ galerias.php
 RewriteRule ^noticias/?$ noticias.php
 RewriteRule ^feiras/?$ feiras.php
+Rewriterule ^galeria-congressos/?$ galeria-congressos.php
 RewriteRule ^clientes/?$ clientes.php
 RewriteRule ^portifolio/?$ portifolio.php
 RewriteRule ^quem-somos/?$ quem-somos.php
@@ -15,6 +16,4 @@ Rewriterule ^noticias/?$ noticias.php
 RewriteRule ^index/?$ index.php
 Rewriterule ^eventos-destaque/?$ eventos-destaque.php
 RewriteRule ^eventos-destaque/pg/([a-z0-9-]*)\/?$ eventos-destaque.php?pg=$1
-RewriteRule ^parametro_string/pg/([a-z0-9-]*)\/?$ parametro_string.php?pg=$1
-RewriteRule ^parametro_int\/?([1-9]*)\/?$ parametro_int.php?qs_pg2805=$1
 </IfModule>

@@ -25,12 +25,13 @@
       </script>
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/boot_modal/css/bootstrap.css" media="all">
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>stylesheets/jquery.tweet.css" media="all">
-      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/jquery.fancybox.css" charset="utf-8" media="screen">
+      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/fancybox-slide/fancybox/jquery.fancybox-1.3.4.css" media="all">
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.fancybox-1.3.4.js"></script>
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/fancybox-slide/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/boot_modal/js/bootstrap.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.tweet.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.linkify-1.0.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.cycle.all.js"></script>
-      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.fancybox.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jcarousellite_1.0.1.min.js"></script>
       <script type="text/javascript" src="javascripts/jquery.prettyPhoto.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/java.js"></script>

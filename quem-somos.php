@@ -37,15 +37,11 @@
           <div id="galeria_image">
 
             <ul>
-              <li><img src="images/noticias/img_01.png" alt=""></li>              
-              <li><img src="" alt=""></li>   
-              <li><img src="" alt=""></li>              
-              <li><img src="" alt=""></li>
-              <li><img src="" alt=""></li>              
-              <li><img src="" alt=""></li>   
-              <li><img src="" alt=""></li>              
-              <li><img src="" alt=""></li>
-              <li><img src="" alt=""></li>
+              <li><a href="images/quem-somos/1.jpg" rel="galeria"><img src="<?php servidor(); ?>images/quem-somos/1.jpg" alt=""></li></a>
+              <li><a href="images/quem-somos/2.jpg" rel="galeria"><img src="<?php servidor(); ?>images/quem-somos/2.jpg" alt=""></li></a>
+              <li><a href="images/quem-somos/3.jpg" rel="galeria"><img src="<?php servidor(); ?>images/quem-somos/3.jpg" alt=""></li></a>
+              <li><a href="images/quem-somos/4.jpg" rel="galeria"><img src="<?php servidor(); ?>images/quem-somos/4.jpg" alt=""></li></a>
+              <li><a href="images/quem-somos/5.jpg" rel="galeria"><img src="<?php servidor(); ?>images/quem-somos/5.jpg" alt=""></li></a>
             </ul>
             
           </div>

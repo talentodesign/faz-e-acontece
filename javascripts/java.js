@@ -18,7 +18,9 @@ $(document).ready(function(){
 		
 		});
 	/* ------------ GALERIAS ---------------------*/	
-		$("#pag_eventos a").fancybox();
+		$("#pag_eventos a, #galeria_image a").fancybox({
+			autoScale	:true
+		});
 
 		
 	/*---------------TWITTER-------------------*/

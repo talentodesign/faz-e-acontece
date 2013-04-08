@@ -431,6 +431,33 @@ body #area_title #title img {
 #content_galerias #pag_eventos #text_title img {
   margin-left: 60px;
 }
+/* GALERIAS - CONGRESSOS */
+#content_congressos {
+  background: url(../images/bg_content.png);
+  height: 575px;
+}
+#content_congressos #pag_congressos #text_congressos {
+  float: left;
+  margin-top: 90px;
+  margin-left: 450px;
+}
+#content_congressos #pag_congressos #congressos {
+  float: left;
+  width: 800px;
+  height: 300px;
+  margin-left: 350px;
+  margin-top: 10px;
+}
+#content_congressos #pag_congressos #congressos ul {
+  list-style: none;
+}
+#content_congressos #pag_congressos #congressos ul li {
+  display: inline;
+}
+#content_congressos #pag_congressos #congressos ul li img {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
 /* FEIRAS */
 #pag_feiras #text_feiras {
   float: left;

@@ -6,24 +6,25 @@ body{
     .centraliza{
     	width:1200px;
     	margin:0 auto;
-    	}
+    }
+
     a, a:active, a:visited{
     	color:inherit;
     	text-decoration:none;
-    	}
+    }
     a:hover{
     	color:inherit;
     	text-decoration:underline;
-    	}
+    }
     .separator{
         clear:both;
-        }
-        
+    }
+
     #content{
         background:url(../images/bg_content.png);
         height:555px;
-        }
-        
+    }
+
     #area_title{
         background:url(../images/bg_home_slider.png);
         height:208px;
@@ -34,59 +35,69 @@ body{
             padding-top:10px;
             img{
                 padding-top:15px;
-                }
             }
-        }        
-    }
+        }
+    }        
+}
+
+.borda(@radius){
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
+
+
 /* HEADER */
 #header{
     background:url(../images/bg_topo.jpg);
-#topo{
-    width:1000px;
-    height:180px;    
-    #redes{ 
-        float:right;
-        height:64px;
-        width:248px;        
-        background:url(../images/bg_redes.png);
-        margin-top:30px;
-        margin-right:10px;
-        #rede_logo{
+    #topo{
+        width:1000px;
+        height:180px;    
+        #redes{ 
             float:right;
-            margin-right:15px;
-            margin-top:14px;
+            height:64px;
+            width:248px;        
+            background:url(../images/bg_redes.png);
+            margin-top:30px;
+            margin-right:10px;
+            #rede_logo{
+                float:right;
+                margin-right:15px;
+                margin-top:14px;
             }        
         } 
-    #contato_topo{
-        float:right;
-        margin-right:-80px;
-        width:338px;
-        height:64px;
-        background:url(../images/contato_topo.png);
-        margin-top:30px;
+        #contato_topo{
+            float:right;
+            margin-right:-80px;
+            width:338px;
+            height:64px;
+            background:url(../images/contato_topo.png);
+            margin-top:30px;
         } 
-    #contato_msg{
-        float:right;
-        margin-right:-340px;
-        width:338px;
-        height:64px;
-        background:url(../images/contato_msg.png);
-        margin-top:105px;
+        #contato_msg{
+            float:right;
+            margin-right:-340px;
+            width:338px;
+            height:64px;
+            background:url(../images/contato_msg.png);
+            margin-top:105px;
         } 
-	}
+    }
 }
 #menu_topo{        
-        background:url(../images/bg_menu_topo.png) center;
-        height:31px;       
-        ul{            
-            list-style-type: none;
-            padding-left:280px;
-            padding-top:3px;
-            li {
-                display: inline;
-                margin-left:15px;
-            }
-        }        
+    background:url(../images/bg_menu_topo.png) center;
+    height:31px;       
+    ul{            
+        list-style-type: none;
+        padding-left:280px;
+        padding-top:3px;
+        li {
+            display: inline;
+            margin-left:15px;
+        }
+    }        
 }
 /* FOOTER */
 #footer{
@@ -105,22 +116,22 @@ body{
             li{
                 display: inline;
                 margin:12px;
-                }
             }
+        }
         #footer_redes{
             float:right;
             margin-top:-28px;
             margin-right:12px;           
-            }
         }
+    }
     #texto_footer{
         color: #fff;
         float:left;
         text-align:center;
         margin-top:40px;        
-        }
-	}
-    
+    }
+}
+
 /* HOME */
 #area_info{
     background:url(../images/bg_home_slider.png);
@@ -130,7 +141,7 @@ body{
         height:420px;
         width:770px;
         padding-top:30px;    
-        }
+    }
     #area_destaque{
         background:url(../images/destaque.png) no-repeat;
         float:right;
@@ -157,23 +168,23 @@ body{
                     .d{
                         font-size:26px;
                         margin-top:10px;
-                        }
+                    }
                     .m{
-                       font-size:14px; 
-                       margin-top:-22px;
-                        }
-                }
-                .titulo{
-                    float:left;
-                    width:270px;
-                    margin-left:20px;
-                    margin-top:20px;
-                    color:white;                    
-                    }               
-                }
-            }        
+                     font-size:14px; 
+                     margin-top:-22px;
+                 }
+             }
+             .titulo{
+                float:left;
+                width:270px;
+                margin-left:20px;
+                margin-top:20px;
+                color:white;                    
+            }               
         }
-    }
+    }        
+}
+}
 #area_home_principal{
     background:url(../images/bg_home_principal.png);
     height:570px; 
@@ -184,51 +195,51 @@ body{
             background:url(../images/bg_home_area_de_atuacao.png) no-repeat;
             width:735px;
             height:570px;           
-           #img_1{
-               background:url(../images/area-de-atuacao/eventos.png);
-               float:left;
-               width:237px;
-               height:354px;
-               margin-top:130px;
-               margin-left:13px;
-               
-               &:hover{
-                   background:url(../images/area-de-atuacao/eventos-hover.png);
-                   }
-               }
-            #img_2{
-               background:url(../images/area-de-atuacao/congressos.png);
-               float:left;
-               width:237px;
-               height:354px;
-               margin-top:130px;
-               
-               &:hover{
-                   background:url(../images/area-de-atuacao/congressos-hover.png);
-                   }
-               }
-             #img_3{
-               background:url(../images/area-de-atuacao/feiras.png);
-               float:left;
-               width:237px;
-               height:354px;
-               margin-top:130px;
-               
-               &:hover{
-                   background:url(../images/area-de-atuacao/feiras-hover.png);
-                   }
-               }            
-            } 
-            
-        #area_noticias{
-            background:url(../images/noticias.png);
-            float:right;
-            width:184px;
-            height:40px;
-            margin-right:230px;
-            margin-top:10px; 
-            #noticias{
-                margin-top:60px;
+            #img_1{
+             background:url(../images/area-de-atuacao/eventos.png);
+             float:left;
+             width:237px;
+             height:354px;
+             margin-top:130px;
+             margin-left:13px;
+
+             &:hover{
+                 background:url(../images/area-de-atuacao/eventos-hover.png);
+             }
+         }
+         #img_2{
+             background:url(../images/area-de-atuacao/congressos.png);
+             float:left;
+             width:237px;
+             height:354px;
+             margin-top:130px;
+
+             &:hover{
+                 background:url(../images/area-de-atuacao/congressos-hover.png);
+             }
+         }
+         #img_3{
+             background:url(../images/area-de-atuacao/feiras.png);
+             float:left;
+             width:237px;
+             height:354px;
+             margin-top:130px;
+
+             &:hover{
+                 background:url(../images/area-de-atuacao/feiras-hover.png);
+             }
+         }            
+     } 
+
+     #area_noticias{
+        background:url(../images/noticias.png);
+        float:right;
+        width:184px;
+        height:40px;
+        margin-right:230px;
+        margin-top:10px; 
+        #noticias{
+            margin-top:60px;
             ul{
                 list-style:none;
                 .data{                   
@@ -239,44 +250,44 @@ body{
                     text-transform:uppercase;
                 }
                 .texto{
-                        font-size:15px;
-                        width:330px;
-                        margin-top:10px;                        
-                        }  
+                    font-size:15px;
+                    width:330px;
+                    margin-top:10px;                        
+                }  
                 .leia_mais{
-                        font-size:15px;
-                        color:#df5401;
-                        }
-                    }
+                    font-size:15px;
+                    color:#df5401;
+                }
+            }
             .separator{
                 background-color:#df5401;
                 margin-top:15px;
                 margin-bottom:-10px;
                 width:315px;
                 height:1px;
-                }
+            }
             img{
                 float:left;
                 margin-left:50px;
                 margin-top:10px;
-                }
-            }                    
-        }  
-        #agenda{
-            background:url(../images/bg_agenda.png);
-            float:left;
-            margin-left:50px;
-            margin-top:400px;
-            width:385px;
-            height:97px;
-            img{
-                float:right;
-                margin-top:25px;
-                margin-right:13px;
-                } 
             }
+        }                    
+    }  
+    #agenda{
+        background:url(../images/bg_agenda.png);
+        float:left;
+        margin-left:50px;
+        margin-top:400px;
+        width:385px;
+        height:97px;
+        img{
+            float:right;
+            margin-top:25px;
+            margin-right:13px;
         } 
-    }   
+    }
+} 
+}   
 #area_galeria{
     background:url(../images/bg_home_galeria.png);
     height:340px;
@@ -287,48 +298,48 @@ body{
             float:left;
             margin-left:85px;
             margin-top:27px;        
-            }
+        }
         #bt_ampliar{
             float:right;
             margin-right:30px;
             margin-top:35px;
-            }
+        }
         #bt_agenda{
             float:right;    
             margin-right:30px;
             margin-top:35px;
-            }
+        }
     }
-        
+
     #home_area_images{  
         #area_images{ 
             #area_conteiner{
                 width:1090px;
                 #conteiner{
-                img{
-                    border: 3px solid #ffa200;
-                    margin-left:10px;
+                    img{
+                        border: 3px solid #ffa200;
+                        margin-left:10px;
                     }
                 }
                 #prev{
                     float:left;
                     margin-top:40px;
                     margin-left:50px;
-                    }
+                }
                 #next{
                     float:left;
                     margin-left:1150px;
                     margin-top:-130px;
-                    }
+                }
                 #area_mani{
                     float:left;
                     margin-left:100px;                    
                     margin-top:-170px;
-                    }
-                }                          
-            }      
-        }
+                }
+            }                          
+        }      
     }
+}
 
 /* AGENDA */
 #pag_agenda{
@@ -339,28 +350,28 @@ body{
         width:190px;
         img{
             margin-bottom:10px;
-            }
+        }
         ul{
             list-style-type:none;
             li{
                 background-color:#bcbbbb;
                 height:35px;
                 margin-top:1px;               
-            	text-decoration:none; 
+                text-decoration:none; 
                 p{
                     color:#fff;
                     font-size:20px;
                     padding-top:6px;
                     padding-left:15px; 
                     height:28px;
-                    }             
+                }             
             }
             li:hover{
             	background-color:#ffb350;
                 a{
                     text-decoration:none;
-                    }
-            	}            
+                }
+            }            
         }        
     }
     #agenda_info{
@@ -374,8 +385,8 @@ body{
             .title{
                 margin-left:50px;
                 margin-top:60px;
-                }
             }
+        }
     }
 }
 
@@ -393,9 +404,9 @@ body{
             margin-left:40px;
             margin-top:20px;
             font-size:15px;
-            }
         }
-        
+    }
+
     #area_clientes_texto{
         float:left;
         margin-left:80px;
@@ -403,31 +414,31 @@ body{
         .title{
             color:#de8208;
             font-size:15px;
-            }
+        }
         .coluna_01{
             float:left;
             margin-left:15px;
             margin-top:10px;
-            }
+        }
         .coluna_02{
             float:left;
             margin-left:100px;
             margin-top:10px;
-            }        
-        }
+        }        
     }
+}
 
 /* GALERIAS */
 #content_galerias{
     background:url(../images/bg_content.png);
     height:575px;
-#pag_galerias{
-    #text_title{
-        float:left;
-        margin-left:130px;
-        font-size:15px;        
-        img{
-            margin-left:60px;
+    #pag_galerias{
+        #text_title{
+            float:left;
+            margin-left:130px;
+            font-size:15px;        
+            img{
+                margin-left:60px;
             }
         }   
     }
@@ -437,34 +448,64 @@ body{
 #content_galerias{
     background:url(../images/bg_content.png);
     height:575px;
-#pag_eventos{
-    ul{
-        float: left;
-        margin-top: 50px;
-        list-style-type: none;
-        text-align: center;
+    #pag_eventos{
+        ul{
+            float: left;
+            margin-top: 50px;
+            list-style-type: none;
+            text-align: center;
 
-        li{
-            display: inline;
-            img{
-                width:260px;
-                border: 3px solid #fa9c16;
-                padding: 3px;
-                margin-top: 10px;                
-                margin-left: 10px;
+            li{
+                display: inline;
+                img{
+                    width:260px;
+                    border: 3px solid #fa9c16;
+                    padding: 3px;
+                    margin-top: 10px;                
+                    margin-left: 10px;
+                }
+
             }
-
         }
-    }
-    #text_title{
-        float:left;
-        margin-left:130px;
-        font-size:15px;        
-        img{
-            margin-left:60px;
+        #text_title{
+            float:left;
+            margin-left:130px;
+            font-size:15px;        
+            img{
+                margin-left:60px;
             }
         }   
     }
+}
+
+/* GALERIAS - CONGRESSOS */
+#content_congressos{
+    background:url(../images/bg_content.png);
+    height:575px;
+   #pag_congressos{
+        #text_congressos{
+            float:left;
+            margin-top:90px;
+            margin-left:450px;
+        }
+    #congressos{
+        float:left;
+        width:800px;
+        height:300px;
+        margin-left:350px;
+        margin-top:10px;
+        ul{
+            list-style:none;
+            li{
+                display:inline;
+                img{
+                    margin-bottom:5px;
+                    margin-left:5px;
+                }
+            }
+        }
+    }    
+}
 }
 
 /* FEIRAS */
@@ -473,7 +514,7 @@ body{
         float:left;
         margin-top:90px;
         margin-left:450px;
-        }
+    }
     #feiras{
         float:left;
         width:800px;
@@ -487,11 +528,11 @@ body{
                 img{
                     margin-bottom:5px;
                     margin-left:5px;
-                    }
                 }
             }
-        }    
-    }
+        }
+    }    
+}
 
 /* GALERIAS AMAZOMPEC */
 #content_galerias{
@@ -507,89 +548,88 @@ body{
                 list-style:none;
                 li{
                     margin-bottom:-45px;
-            #feira_2010{
-                background-color:#a7a6a6;
-                width:258px;
-                height:50px;
-                margin-top:50px;
-                 &:hover{
-                     background-color:#f3ae4f;
-                     }
-                .ano{
-                    float:left;
-                    margin-top:7px;
-                    font-size:30px;
-                    margin-left:20px;
-                    color:#fff;
-                    font-family:verdana;
+                    #feira_2010{
+                        background-color:#a7a6a6;
+                        width:258px;
+                        height:50px;
+                        margin-top:50px;
+                        &:hover{
+                           background-color:#f3ae4f;
+                       }
+                       .ano{
+                        float:left;
+                        margin-top:7px;
+                        font-size:30px;
+                        margin-left:20px;
+                        color:#fff;
+                        font-family:verdana;
                     }
                 } 
-            #feira_2009{
-                background-color:#a7a6a6;
-                width:258px;
-                height:50px;
-                margin-top:50px;
-                 &:hover{
-                     background-color:#f3ae4f;
-                     }
-                .ano{
+                #feira_2009{
+                    background-color:#a7a6a6;
+                    width:258px;
+                    height:50px;
+                    margin-top:50px;
+                    &:hover{
+                       background-color:#f3ae4f;
+                   }
+                   .ano{
                     float:left;
                     margin-top:7px;
                     font-size:30px;
                     margin-left:20px;
                     color:#fff;
                     font-family:verdana;
-                    }
                 }
+            }
             #feira_2008{
                 background-color:#a7a6a6;
                 width:258px;
                 height:50px;
                 margin-top:50px;
-                 &:hover{
-                     background-color:#f3ae4f;
-                     }
-                .ano{
-                    float:left;
-                    margin-top:7px;
-                    font-size:30px;
-                    margin-left:20px;
-                    color:#fff;
-                    font-family:verdana;
-                    }
-                }
+                &:hover{
+                   background-color:#f3ae4f;
+               }
+               .ano{
+                float:left;
+                margin-top:7px;
+                font-size:30px;
+                margin-left:20px;
+                color:#fff;
+                font-family:verdana;
             }
         }
-            #voltar{
-                float:left;
-                margin-top:60px;
-             }
+    }
+}
+#voltar{
+    float:left;
+    margin-top:60px;
+}
+}
+#area_images{
+    background:url(../images/galerias/amazonpec/conteiner_feiras.png);
+    float:right;
+    width:815px;
+    height:520px;
+    margin-top:30px;
+    ul{
+        list-style:none;
+        margin-top:10px;
+        margin-bottom:-20px;
+        li{
+            display:inline;
+            margin-left:5px;
+
+            img{
+                border:3px solid #fda62c;
+            }
         }
-        #area_images{
-            background:url(../images/galerias/amazonpec/conteiner_feiras.png);
-            float:right;
-            width:815px;
-            height:520px;
-            margin-top:30px;
-            ul{
-                list-style:none;
-                margin-top:10px;
-                margin-bottom:-20px;
-                li{
-                    display:inline;
-                    margin-left:5px;
-                    
-                    img{
-                        border:3px solid #fda62c;
-                        }
-                    }
-                }
-        }
-    }   
+    }
+}
+}   
 }
 
 /* NOTICIAS */
-
 #pag_noticias{
     #noticias{
         background:url(../images/bg_noticias_prev.png);
@@ -604,7 +644,7 @@ body{
             margin-top:40px;
             font-family:verdana;
             color:#e08404;
-            }
+        }
         #area_noticias{
             float:left;
             margin-left:10px;
@@ -616,38 +656,38 @@ body{
                         font-size:18px;
                         color:#df5401;
                         font-family:verdana;                        
-                        }
+                    }
                     .prev{                        
                         font-size:15px;
                         width:385px;
                         font-family:verdana;
                         text-align:justify;                       
-                        }
-                     .separator{
-                            background-color:#e08404;
-                            width:390px;
-                            height:4px;
-                            margin-top:15px;
-                            margin-bottom:10px;
-                        }
-                    }                    
-                }
-                #noticias_navi{                    
-                    float:left;
-                    margin-top:50px;
-                    margin-left:90px;
-                    color:#e08404;
-                    
-                    #volt{
-                        float:left;
-                        }
-                    #proxi{
-                        float:left;
-                        margin-left:10px;
-                        }
-                    }                
-                }
+                    }
+                    .separator{
+                        background-color:#e08404;
+                        width:390px;
+                        height:4px;
+                        margin-top:15px;
+                        margin-bottom:10px;
+                    }
+                }                    
             }
+            #noticias_navi{                    
+                float:left;
+                margin-top:50px;
+                margin-left:90px;
+                color:#e08404;
+
+                #volt{
+                    float:left;
+                }
+                #proxi{
+                    float:left;
+                    margin-left:10px;
+                }
+            }                
+        }
+    }
     #noticias_principal{
         background:url(../images/bg_noticias_principal.png);
         float:right;
@@ -661,7 +701,7 @@ body{
             margin-left:20px;
             font-size:17px;
             color:#df5401;            
-            }
+        }
         #noticias_texto{
             max-width:100%; 
             margin-left:10px;
@@ -671,13 +711,13 @@ body{
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                }
+            }
             p{
                 font-size:15px;
-                }
             }
         }
-    }    
+    }
+}    
 
 /* EVENTOS DESTAQUE */
 #pag_destaque{
@@ -694,7 +734,7 @@ body{
             margin-top:40px;
             font-family:verdana;
             color:#e08404;
-            }
+        }
         #area_destaque{
             float:left;
             margin-left:10px;
@@ -706,37 +746,37 @@ body{
                         font-size:18px;
                         color:#df5401;
                         font-family:verdana;                        
-                        }
+                    }
                     .prev{                        
                         font-size:15px;
                         width:295px;
                         font-family:verdana;
-                        }
-                     .separator{
-                            background-color:#e08404;
-                            width:300px;
-                            height:1px;
-                            margin-top:15px;
-                            margin-bottom:10px;
-                        }
-                    }                    
-                }
-                #destaque_navi{                    
-                    float:left;
-                    margin-top:50px;
-                    margin-left:90px;
-                    color:#e08404;
-                    
-                    #volt{
-                        float:left;
-                        }
-                    #proxi{
-                        float:left;
-                        margin-left:10px;
-                        }
-                    }                
-                }
+                    }
+                    .separator{
+                        background-color:#e08404;
+                        width:300px;
+                        height:1px;
+                        margin-top:15px;
+                        margin-bottom:10px;
+                    }
+                }                    
             }
+            #destaque_navi{                    
+                float:left;
+                margin-top:50px;
+                margin-left:90px;
+                color:#e08404;
+
+                #volt{
+                    float:left;
+                }
+                #proxi{
+                    float:left;
+                    margin-left:10px;
+                }
+            }                
+        }
+    }
     #destaque_principal{
         background:url(../images/bg_noticias_principal.png);
         float:right;
@@ -748,7 +788,7 @@ body{
             margin-top: 20px;
             width: 750px;
             text-align: center;
-            }
+        }
         #texto{
             width: 690px;
             float: left;
@@ -764,7 +804,7 @@ body{
             margin-left:20px;
             font-size:17px;
             color:#df5401;         
-            }
+        }
         #destaque_texto{
             max-width:100%; 
             margin-left:10px;
@@ -775,15 +815,15 @@ body{
                 margin-left: auto;
                 margin-right: auto;
                 margin-top:10px;
-                }
+            }
             p{
                 font-size:15px;
-                }
             }
         }
-    }   
-    
-    
+    }
+}   
+
+
 /* PORTIFOLIO */
 #pag_portifolio{    
     #area_anos{
@@ -796,7 +836,7 @@ body{
             font-family:verdana;
             color:#e56d02;
             margin-bottom:10px;
-            }
+        }
         ul{
             list-style-type:none;
             li{
@@ -810,7 +850,7 @@ body{
                     padding-top:15px;
                     padding-left:15px; 
                     height:28px;
-                    }             
+                }             
             }
             li:hover{
             	background-color:#ffb350;
@@ -830,7 +870,7 @@ body{
             font-size:45px;
             color:#ed7307;
             margin-top:30px;
-            }
+        }
         ul{
             list-style:none;
             margin-left:10px;
@@ -841,22 +881,22 @@ body{
                     margin-bottom:5px;
                     margin-left:5px;
                     border: 3px solid #ed7307;
-                    }
                 }
             }
-        }    
+        }
+    }    
 }
 
 /* QUEM SOMOS */
 #pag_quem-somos{
     .titulo{
-            color:#f68000;
-            font-size:35px;
-            float:left;
-            margin-left:100px;
-            margin-top:40px;
-            margin-bottom:-15px;
-            }
+        color:#f68000;
+        font-size:35px;
+        float:left;
+        margin-left:100px;
+        margin-top:40px;
+        margin-bottom:-15px;
+    }
     #texto{
         float:left;
         margin-left:100px;
@@ -866,12 +906,12 @@ body{
         .nomes{
             color:#f68000;
             font-size:15px;
-            }
+        }
         .sublim{
             color:#f68000;
-            }
         }
-        
+    }
+
     #galeria_image{
         background:url(../images/quem-somos/bg_imagens.png);
         float:right;
@@ -892,15 +932,14 @@ body{
                     border: 3px solid #ffa200;
                     width:120px;
                     height:120px;
-                    }
                 }
             }
         }
+    }
     
 }
 
-    
 
 
 
-    
+
